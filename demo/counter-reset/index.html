@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        ul li {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            counter-reset: sectioncounter;
+            width: 200px;
+        }
+
+        ul li:before {
+            content: '第'counter(sectioncounter);
+            counter-increment: sectioncounter;
+        }
+        li:after {
+            /* content: '第'attr(date-index)'个元素'; */
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <!-- <li date-index="1"></li>
+        <li date-index="2"></li>
+        <li date-index="3"></li>
+        <li date-index="4"></li>
+        <li date-index="5"></li>
+        <li date-index="6"></li>
+        <li date-index="7"></li>
+        <li date-index="8"></li>
+        <li date-index="9"></li>
+        <li date-index="10"></li> -->
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</body>
+<script>
+
+</script>
+
+</html>
